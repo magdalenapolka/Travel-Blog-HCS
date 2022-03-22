@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+     .btn {
+         @apply rounded-full bg-blue-600 text-white lg:text-black lg:bg-white  px-10 py-3  sm:px-10;
+     }
+      .active {
+          right: 0 !important;
+          z-index: 999;
+      }
+      
+}
